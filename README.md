@@ -7,7 +7,7 @@
 
 - I have implemented a sound feature. 
 - Now the game has a start sound, a game over sound and every bite is accompanied acoustically.
-- Because the PWM signal of the 8x8 matrix display can disturb the buzzer, it is recommended to use a 100uF capacitor directly between 5+ and GND.
+- Because the PWM signal of the 8x8 matrix display can disturb the buzzer, it is recommended to use a 100uF capacitor directly between system +5V and GND to smooth the current.
 ---
 
 
