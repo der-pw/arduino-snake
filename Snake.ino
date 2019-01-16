@@ -231,7 +231,7 @@ void calculateSnake() {
 
   // check if the food was eaten
   if (snake.row == food.row && snake.col == food.col) {
-    beep(eH, 30); //beep if the snake eat the dot
+    beep(fH, 30); //beep if the snake eat the dot (i think 30+10ms blocking is okay)
     snakeLength++;
     food.row = -1; // reset food
     food.col = -1;
